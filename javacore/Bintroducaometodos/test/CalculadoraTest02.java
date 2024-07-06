@@ -1,0 +1,11 @@
+package academy.arthur.maratonajava.javacore.Bintroducaometodos.test;
+
+import academy.arthur.maratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
+
+public class CalculadoraTest02 {
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+        calculadora.multiplicaDoisNumeros(23,5);
+    }
+
+}
