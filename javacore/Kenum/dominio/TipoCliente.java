@@ -8,5 +8,9 @@ public enum TipoCliente {
         this.VALOR = valor;
     }
 
-}
+
+    }
+
+
+
 

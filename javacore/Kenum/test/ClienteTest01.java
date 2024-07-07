@@ -2,7 +2,7 @@ package academy.arthur.maratonajava.javacore.Kenum.test;
 
 
 import academy.arthur.maratonajava.javacore.Kenum.dominio.Cliente;
-import academy.arthur.maratonajava.javacore.Kenum.dominio.Cliente.TipoPagamento;
+import academy.arthur.maratonajava.javacore.Kenum.dominio.TipoPagamento;
 import academy.arthur.maratonajava.javacore.Kenum.dominio.TipoCliente;
 
 import java.util.Scanner;
@@ -14,6 +14,8 @@ public class ClienteTest01 {
 
         System.out.println(cliente1);
         System.out.println(cliente2);
+        System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
+        System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
 
     }
 }
